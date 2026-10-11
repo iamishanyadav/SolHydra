@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SolHydra Technology & Engineering — How Solar, Onboard Battery, and Real-Time Water Electrolysis Power Heavy Freight Without Explosive 700-Bar Tanks. Created by Ishan Yadav.">
+  <title>Technology &amp; Subsystems | SolHydra Clean Mobility</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/sol_hydra_logo.png">
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========================= GLOBAL SITE HEADER ========================= -->
+  <header class="site-header" id="header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="brand" aria-label="SolHydra Home">
+        <img src="images/sol_hydra_logo.png" alt="SolHydra Logo" class="nav-logo">
+        <div class="brand-info">
+          <span class="brand-text">SolHydra</span>
+          <span class="brand-tagline">Clean Mobility • Ishan Yadav</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="technology.html" class="nav-link active">Technology</a>
+        <a href="about.html" class="nav-link">About &amp; Vision</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn btn-secondary btn-sm" data-open-deck-modal>Pitch Deck</button>
+        <a href="contact.html" class="btn btn-primary btn-sm">Get in Touch</a>
+        <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-nav-drawer" aria-label="Mobile Navigation">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="technology.html" class="nav-link active">Technology</a>
+    <a href="about.html" class="nav-link">About &amp; Vision</a>
+    <a href="contact.html" class="nav-link">Contact</a>
+    <div style="margin-top: 14px; display: flex; flex-direction: column; gap: 10px;">
+      <button class="btn btn-secondary" style="width: 100%;" data-open-deck-modal>Project Pitch Deck</button>
+      <a href="contact.html" class="btn btn-primary" style="width: 100%;">Contact Ishan Yadav</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- ========================= TECHNOLOGY HERO ========================= -->
+    <section class="section section-light" style="padding-top: 80px;">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-kicker">ENGINEERING &amp; ARCHITECTURE</span>
+          <h1 class="section-title">How the Tri-Hybrid System Works</h1>
+          <p class="section-subtitle">
+            SolHydra eliminates heavy 700-bar hydrogen tanks entirely. 
+            Instead, ordinary water is converted into clean hydrogen gas on the truck as you drive, 
+            using power from rooftop solar panels and a balanced onboard battery.
+          </p>
+          <div style="margin-top: 24px; display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;">
+            <a href="#cycle" class="btn btn-primary btn-sm">Energy Cycle Flow ↓</a>
+            <a href="#subsystems" class="btn btn-secondary btn-sm">Hardware Subsystems ↓</a>
+            <a href="#comparison" class="btn btn-secondary btn-sm">Vehicle Comparison Table ↓</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         SECTION 1: THE COMPLETE POWER FLOW (REDESIGNED SINGLE BLOCK)
+         ================================================================= -->
+    <section class="section" id="cycle">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-kicker eco">POWER CONVERSION CYCLE</span>
+          <h2 class="section-title">The Energy Cycle in Plain English</h2>
+          <p class="section-subtitle">
+            No dangerous pressurized fuel storage. Just a smooth, direct flow of clean energy from water to the wheels.
+          </p>
+        </div>
+
+        <!-- Step-by-Step Flowchart Container -->
+        <div class="energy-flowchart-wrapper">
+          <!-- Flow Ticker Strip -->
+          <div class="flowchart-flow-banner" aria-label="Energy Flow Sequence">
+            <span class="flow-ticker-step">Solar Harvesting</span>
+            <span class="flow-ticker-arrow">→</span>
+            <span class="flow-ticker-step">Energy Buffering</span>
+            <span class="flow-ticker-arrow">→</span>
+            <span class="flow-ticker-step eco">Water Electrolysis</span>
+            <span class="flow-ticker-arrow">→</span>
+            <span class="flow-ticker-step">Direct Fuel Cell Feed</span>
+            <span class="flow-ticker-arrow">→</span>
+            <span class="flow-ticker-step">Electric Propulsion</span>
+            <span class="flow-ticker-arrow">→</span>
+            <span class="flow-ticker-step eco">Clean Water Exhaust</span>
+          </div>
+
+          <!-- 3D Flowchart Step Cards Grid -->
+          <div class="flowchart-grid">
+            <!-- Step 1 -->
+            <div class="flow-card">
+              <div class="flow-card-head">
+                <span class="flow-step-num">Step 01</span>
+                <span class="flow-step-arrow" aria-hidden="true">→</span>
+              </div>
+              <h3 class="flow-card-title">Solar Harvesting</h3>
+              <p class="flow-card-desc">Aerodynamic rooftop panels capture clean solar electricity on the move.</p>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="flow-card">
+              <div class="flow-card-head">
+                <span class="flow-step-num">Step 02</span>
+                <span class="flow-step-arrow" aria-hidden="true">→</span>
+              </div>
+              <h3 class="flow-card-title">Energy Buffering</h3>
+              <p class="flow-card-desc">A compact onboard battery stores solar power and recovers energy from regenerative braking.</p>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="flow-card eco-flow-card">
+              <div class="flow-card-head">
+                <span class="flow-step-num eco">Step 03</span>
+                <span class="flow-step-arrow" aria-hidden="true">→</span>
+              </div>
+              <h3 class="flow-card-title">Water Electrolysis</h3>
+              <p class="flow-card-desc">Clean water is split on demand into hydrogen at safe, ambient pressure.</p>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="flow-card">
+              <div class="flow-card-head">
+                <span class="flow-step-num">Step 04</span>
+                <span class="flow-step-arrow" aria-hidden="true">→</span>
+              </div>
+              <h3 class="flow-card-title">Direct Fuel Cell Feed</h3>
+              <p class="flow-card-desc">Hydrogen flows directly into the fuel cell to generate traction electricity without high-pressure storage tanks.</p>
+            </div>
+
+            <!-- Step 5 -->
+            <div class="flow-card">
+              <div class="flow-card-head">
+                <span class="flow-step-num">Step 05</span>
+                <span class="flow-step-arrow" aria-hidden="true">→</span>
+              </div>
+              <h3 class="flow-card-title">Electric Propulsion</h3>
+              <p class="flow-card-desc">High-efficiency electric drive motor powers the wheels smoothly and quietly.</p>
+            </div>
+
+            <!-- Step 6 -->
+            <div class="flow-card eco-flow-card">
+              <div class="flow-card-head">
+                <span class="flow-step-num eco">Step 06</span>
+                <span class="flow-step-arrow check" aria-hidden="true">✓</span>
+              </div>
+              <h3 class="flow-card-title">Clean Water Exhaust</h3>
+              <p class="flow-card-desc">Pure water vapor is the only emission, with closed-loop recycling back to the water reservoir.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         SECTION 2: CORE HARDWARE SUBSYSTEMS & PLACEHOLDERS
+         Each part explained simply with clear image placeholders.
+         ================================================================= -->
+    <section class="section section-light" id="subsystems">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">HARDWARE BLUEPRINT</span>
+          <h2 class="section-title">The 6 Core Hardware Subsystems</h2>
+          <p class="section-subtitle">
+            Every subsystem uses practical, reliable components designed for heavy commercial durability.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <!-- Subsystem 1: Rooftop Solar Matrix -->
+          <div class="subsystem-card">
+            <div class="subsystem-image-box">
+              <!-- =======================================================
+                   IMAGE PLACEHOLDER: Rooftop Solar Panels
+                   To update: Replace images/Screenshot 2026-08-31 202951.png
+                   ======================================================= -->
+              <img src="images/Screenshot 2026-08-31 202951.png" alt="Aerodynamic Solar Array" onerror="this.src='images/main_truck.png'">
+              <span class="subsystem-tag">Subsystem 01</span>
+            </div>
+            <div class="subsystem-body">
+              <h3 class="subsystem-title">Rooftop Solar Array</h3>
+              <p class="subsystem-desc">
+                Lightweight, flexible solar panels curved over the truck cab and trailer. Designed to withstand highway winds, vibrations, and weather changes without adding aerodynamic drag.
+              </p>
+              <div class="subsystem-specs">
+                 <span class="spec-pill">2.4 kW Peak Power</span> 
+                <span class="spec-pill">Mono-crystalline Cells</span>
+                <span class="spec-pill">IP68 Waterproof</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Subsystem 2: Buffer Battery -->
+          <div class="subsystem-card">
+            <div class="subsystem-image-box">
+              <!-- =======================================================
+                   IMAGE PLACEHOLDER: Buffer Battery Pack
+                   To update: Replace images/battry.jpg
+                   ======================================================= -->
+              <img src="images/b.png" alt="Onboard Buffer Battery" onerror="this.src='images/main_truck.png'">
+              <span class="subsystem-tag">Subsystem 02</span>
+            </div>
+            <div class="subsystem-body">
+              <h3 class="subsystem-title">Buffer Battery Pack</h3>
+              <p class="subsystem-desc">
+                A safe Lithium Iron Phosphate (LFP) battery. Unlike pure electric trucks that carry 8,000 kg of batteries, this right-sized 40 kWh pack acts as an energy buffer for smooth power delivery.
+              </p>
+              <div class="subsystem-specs">
+                <span class="spec-pill">40 kWh Capacity</span>
+                <span class="spec-pill">LFP Safe Chemistry</span>
+                <span class="spec-pill">Liquid-Cooled</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Subsystem 3: Water Electrolyzer -->
+          <div class="subsystem-card">
+            <div class="subsystem-image-box">
+              <!-- =======================================================
+                   IMAGE PLACEHOLDER: Water Electrolyzer
+                   To update: Replace images/pem_electrolyser.jpg
+                   ======================================================= -->
+              <img src="images/pem_electrolyser.jpg" alt="Onboard Water Electrolyzer" onerror="this.src='images/main_truck.png'">
+              <span class="subsystem-tag">Subsystem 03</span>
+            </div>
+            <div class="subsystem-body">
+              <h3 class="subsystem-title">Onboard Water Electrolyzer</h3>
+              <p class="subsystem-desc">
+                Uses electricity from the battery to split ordinary water into hydrogen and oxygen gas. Operates below 3 bar pressure (similar to car tires), eliminating explosive hazards.
+              </p>
+              <div class="subsystem-specs">
+                <span class="spec-pill">Pressure: &lt; 3 Bar</span>
+                <span class="spec-pill">Zero Explosive Storage</span>
+                <span class="spec-pill">Rapid Response</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Subsystem 4: Fuel Cell -->
+          <div class="subsystem-card">
+            <div class="subsystem-image-box">
+              <!-- =======================================================
+                   IMAGE PLACEHOLDER: Hydrogen Fuel Cell
+                   To update: Replace images/fuel_cell.jpg
+                   ======================================================= -->
+              <img src="images/fuel_cell.jpg" alt="Proton Exchange Fuel Cell" onerror="this.src='images/main_truck.png'">
+              <span class="subsystem-tag">Subsystem 04</span>
+            </div>
+            <div class="subsystem-body">
+              <h3 class="subsystem-title">Hydrogen Fuel Cell Stack</h3>
+              <p class="subsystem-desc">
+                Takes hydrogen directly from the electrolyzer, combines it with oxygen from the ambient air, and produces steady electrical current with quiet, efficient operation.
+              </p>
+              <div class="subsystem-specs">
+                <span class="spec-pill">Direct-Coupled Feed</span>
+                <span class="spec-pill">60 kW Output</span>
+                <span class="spec-pill">Zero CO₂ Emitted</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Subsystem 5: Electric Motor -->
+          <div class="subsystem-card">
+            <div class="subsystem-image-box">
+              <!-- =======================================================
+                   IMAGE PLACEHOLDER: Electric Drive Motor
+                   To update: Replace images/motor.jpg
+                   ======================================================= -->
+              <img src="images/motor.jpg" alt="Commercial Electric Motor" onerror="this.src='images/main_truck.png'">
+              <span class="subsystem-tag">Subsystem 05</span>
+            </div>
+            <div class="subsystem-body">
+              <h3 class="subsystem-title">Electric Drive Motor</h3>
+              <p class="subsystem-desc">
+                Permanent magnet synchronous motor that delivers instant torque to the truck axles, easily moving full freight loads up steep highway inclines.
+              </p>
+              <div class="subsystem-specs">
+                <span class="spec-pill">Heavy-Duty Torque</span>
+                <span class="spec-pill">Regenerative Braking</span>
+                <span class="spec-pill">High Efficiency</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Subsystem 6: Water Tank & Thermal Loop -->
+          <div class="subsystem-card">
+            <div class="subsystem-image-box">
+              <!-- =======================================================
+                   IMAGE PLACEHOLDER: Water Feedstock Tank
+                   To update: Replace images/water.jpg
+                   ======================================================= -->
+              <img src="images/water.jpg" alt="Water Storage and Thermal System" onerror="this.src='images/main_truck.png'">
+              <span class="subsystem-tag">Subsystem 06</span>
+            </div>
+            <div class="subsystem-body">
+              <h3 class="subsystem-title">Water Tank &amp; Heating Loop</h3>
+              <p class="subsystem-desc">
+                Stores ordinary clean water in an unpressurized plastic tank. A waste heat loop from the fuel cell warms the tank during winter driving so the water never freezes in cold weather.
+              </p>
+              <div class="subsystem-specs">
+                <span class="spec-pill">Ambient Pressure Tank</span>
+                <span class="spec-pill">Anti-Freeze Heated</span>
+                <span class="spec-pill">Easy Depo Refilling</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         SECTION 3: HEAD-TO-HEAD COMPARISON TABLE
+         Clear comparison showing why SolHydra is better than BEVs and 700-bar trucks.
+         ================================================================= -->
+    <section class="section" id="comparison">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-kicker">CLEAR COMPARISON</span>
+          <h2 class="section-title">How SolHydra Compares to Other Commercial Trucks</h2>
+          <p class="section-subtitle">
+            See the honest engineering differences between standard diesel, heavy battery trucks, traditional hydrogen trucks, and SolHydra.
+          </p>
+        </div>
+
+        <div class="comparison-wrapper">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>Feature / Parameter</th>
+                <th>Standard Diesel</th>
+                <th>Battery Electric (BEV)</th>
+                <th>Traditional H₂ Truck</th>
+                <th class="table-highlight">SolHydra Tri-Hybrid</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Primary Energy Source</strong></td>
+                <td>Diesel Fuel</td>
+                <td>Grid Electricity</td>
+                <td>Hydrogen Gas</td>
+                <td class="table-highlight"><strong>Sunlight + Pure Water</strong></td>
+              </tr>
+              <tr>
+                <td><strong>Fuel Storage Pressure</strong></td>
+                <td>1 Bar (Liquid)</td>
+                <td>None (Chemical pack)</td>
+                <td>700 Bar (10,000 PSI)</td>
+                <td class="table-highlight"><strong>&lt; 3 Bar (Normal water tank)</strong></td>
+              </tr>
+              <tr>
+                <td><strong>Powertrain Deadweight</strong></td>
+                <td>~1,800 kg</td>
+                <td>~8,000 to 10,000 kg</td>
+                <td>~3,200 kg</td>
+                <td class="table-highlight"><strong>~3,800 kg total</strong></td>
+              </tr>
+              <tr>
+                <td><strong>Cargo Capacity Impact</strong></td>
+                <td>Full payload baseline</td>
+                <td>Severe loss (-8 metric tons)</td>
+                <td>Moderate loss</td>
+                <td class="table-highlight"><strong>+4,200 kg extra vs BEV</strong></td>
+              </tr>
+              <tr>
+                <td><strong>Explosion / Crash Hazard</strong></td>
+                <td>Moderate (Fuel fire)</td>
+                <td>Battery thermal fire</td>
+                <td>High (10,000 PSI explosion)</td>
+                <td class="table-highlight"><strong>Minimal (No stored gas)</strong></td>
+              </tr>
+              <tr>
+                <td><strong>Refueling Infrastructure</strong></td>
+                <td>Standard diesel pumps</td>
+                <td>Heavy MW electric chargers</td>
+                <td>Rare cryogenic H₂ stations</td>
+                <td class="table-highlight"><strong>Any clean water tap + Sun</strong></td>
+              </tr>
+              <tr>
+                <td><strong>Tailpipe Emissions</strong></td>
+                <td>CO₂, NOx, Diesel soot</td>
+                <td>Zero tailpipe</td>
+                <td>Water vapor</td>
+                <td class="table-highlight"><strong>Zero (Clean water vapor)</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- =================================================================
+         SECTION 5: INQUIRIES & NEXT STEPS
+         ================================================================= -->
+    <section class="section">
+      <div class="container">
+        <div class="card" style="padding: 40px; text-align: center; max-width: 800px; margin: 0 auto; border-color: var(--primary-border); background-color: var(--primary-light);">
+          <h2 style="font-size: 28px; margin-bottom: 12px; color: var(--text-main);">Have Technical Questions?</h2>
+          <p style="font-size: 16px; color: var(--text-body); margin-bottom: 24px; line-height: 1.6;">
+            Ishan Yadav is happy to walk through the technical simulations, mass balance calculations, and component sizing with your engineering or operations team.
+          </p>
+          <div style="display: flex; justify-content: center; gap: 14px; flex-wrap: wrap;">
+            <a href="contact.html" class="btn btn-primary">Contact Ishan Yadav →</a>
+            <button class="btn btn-secondary" data-open-deck-modal>Request Technical Pitch Deck</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =================================================================
+       GLOBAL SITE FOOTER
+       ================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a href="index.html" class="brand" aria-label="SolHydra Home">
+            <div class="brand-badge">SH</div>
+            <div class="brand-info">
+              <span class="brand-text">SolHydra</span>
+              <span class="brand-tagline">Clean Mobility • Ishan Yadav</span>
+            </div>
+          </a>
+          <p class="footer-brand-bio">
+            A practical, clean commercial vehicle combining solar energy, an onboard battery, and real-time water electrolysis. Zero heavy hydrogen tanks.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="technology.html" class="footer-link">Technology</a></li>
+            <li><a href="about.html" class="footer-link">About &amp; Vision</a></li>
+            <li><a href="contact.html" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Documents</h4>
+          <p style="font-size: 13px; color: var(--text-muted); line-height: 1.6;">
+            PDF's and Pitch Deck will be uploaded soon.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Contact Ishan Yadav</h4>
+          <div class="footer-contact-item">
+            <span>✉</span>
+            <a href="mailto:ishanyadav2909@gmail.com" class="footer-link">ishanyadav2909@gmail.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <span>✉</span>
+            <a href="mailto:ishanyadavactive@gmail.com" class="footer-link">ishanyadavactive@gmail.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <!-- PHONE NUMBER PLACEHOLDER -->
+            <span>📞</span>
+            <span>+91-9457606742</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 SolHydra. All rights reserved. Created by <strong>Ishan Yadav</strong>.</div>
+        <div style="display: flex; gap: 16px;">
+          <span>Zero 700-Bar Tanks</span>
+          <span>•</span>
+          <span>Tri-Hybrid Clean Vehicle</span>
+          <span>•</span>
+          <span>Commercial Transport</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- INVESTOR PITCH DECK MODAL -->
+  <div class="modal-backdrop" id="pitch-deck-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button class="modal-close-btn" aria-label="Close dialog">&times;</button>
+      <span class="badge" style="margin-bottom: 12px;">PROJECT OVERVIEW</span>
+      <h3 style="font-size: 22px; margin-bottom: 8px;">Request SolHydra Pitch Deck</h3>
+      <p style="font-size: 14px; color: var(--text-muted); margin-bottom: 20px; line-height: 1.5;">
+        Enter your details to receive the complete SolHydra project overview and technical documentation.
+      </p>
+
+     <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="4d840e22-e1cb-4035-8cad-59de40c54b7c">
+       
+
+        <div class="form-group">
+          <label class="form-label" for="modal-name-tech">Your Full Name</label>
+          <input type="text" id="modal-name-tech" name="name" class="form-input" placeholder="e.g. John Doe" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="modal-email-tech">Your Work Email</label>
+          <input type="email" id="modal-email-tech" name="email" class="form-input" placeholder="name@company.com" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="modal-org-tech">Organization / Fleet Name</label>
+          <input type="text" id="modal-org-tech" name="organization" class="form-input" placeholder="e.g. Acme Logistics">
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 6px;">
+          Submit &amp; Open Pitch Deck →
+        </button>
+
+        <div class="form-status"></div>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

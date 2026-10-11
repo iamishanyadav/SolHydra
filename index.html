@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="SolHydra — Clean Tri-Hybrid Commercial Vehicle (Solar + Battery + On-Board Water Electrolyzer) founded by Ishan Yadav. Zero heavy hydrogen tanks.">
+  <title>SolHydra | Clean Tri-Hybrid Commercial Mobility</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/sol_hydra_logo.png">
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ========================= GLOBAL SITE HEADER ========================= -->
+  <header class="site-header" id="header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="brand" aria-label="SolHydra Home">
+        <img src="images/sol_hydra_logo.png" alt="SolHydra Logo" class="nav-logo">
+        <div class="brand-info">
+          <span class="brand-text">SolHydra</span>
+          <span class="brand-tagline">Clean Mobility • Ishan Yadav</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="technology.html" class="nav-link">Technology</a>
+        <a href="about.html" class="nav-link">About &amp; Vision</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="nav-actions">
+        <button class="btn btn-secondary btn-sm" data-open-deck-modal>Pitch Deck</button>
+        <a href="contact.html" class="btn btn-primary btn-sm">Get in Touch</a>
+        <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-nav-drawer" aria-label="Mobile Navigation">
+    <a href="index.html" class="nav-link active">Home</a>
+    <a href="technology.html" class="nav-link">Technology</a>
+    <a href="about.html" class="nav-link">About &amp; Vision</a>
+    <a href="contact.html" class="nav-link">Contact</a>
+    <div style="margin-top: 14px; display: flex; flex-direction: column; gap: 10px;">
+      <button class="btn btn-secondary" style="width: 100%;" data-open-deck-modal>Project Pitch Deck</button>
+      <a href="contact.html" class="btn btn-primary" style="width: 100%;">Contact Ishan Yadav</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- =================================================================
+         HERO SECTION (CLEAN CORPORATE WITH VIDEO / POSTER PLACEHOLDER)
+         Simple, classy light theme with plain English explanation.
+         ================================================================= -->
+    <section class="hero" id="hero">
+
+      <!-- ===============================================================
+           BACKGROUND VIDEO PLACEHOLDER:
+           To insert your background video:
+           1. Place your video file inside the /videos/ folder (e.g., videos/solhydra-hero.mp4).
+           2. Uncomment or update the <video> tag below.
+           3. If no video is present, the clean corporate light background is active.
+           =============================================================== -->
+      <div class="hero-video-wrapper">
+        <video class="hero-video" autoplay loop muted playsinline poster="images/hero-poster.jpg"> >
+          <!-- UNCOMMENT AND INSERT YOUR LOCAL .MP4 VIDEO HERE: -->
+          <source src="videos/3D Animation Video Transportation.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="container hero-content">
+        <div class="badge badge-green" style="margin-bottom: 12px;">
+          <span class="badge-dot"></span> Tri-Hybrid Clean Commercial Vehicle
+        </div>
+
+        <h1 class="hero-title">
+          Clean Commercial Trucks.<br>
+          <span>Zero Heavy Hydrogen Tanks.</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          <strong>SolHydra</strong> is a commercial vehicle based on <strong>Sustainable And Renewable Energy Sources.</strong>
+          Rooftop solar panels charge an onboard battery, which powers a water electrolyzer to make hydrogen on the
+          move.
+          This hydrogen goes straight into the fuel cell, completely eliminating heavy, explosive high-pressure fuel
+          tanks.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="technology.html" class="btn btn-primary btn-lg">How It Works →</a>
+          <button class="btn btn-secondary btn-lg" data-open-deck-modal>Download Pitch Deck</button>
+          <a href="contact.html" class="btn btn-secondary btn-lg">Contact Ishan Yadav</a>
+        </div>
+
+        <!-- Key Metrics Strip -->
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-value primary">0 Bar</div>
+            <div class="stat-label">No 700-Bar Explosive Gas Tanks</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value eco">+4,200 kg</div>
+            <div class="stat-label">Extra Cargo Capacity vs Battery Trucks</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value">100%</div>
+            <div class="stat-label">On-Demand Hydrogen from Pure Water</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value eco">0.00</div>
+            <div class="stat-label">Tailpipe CO₂ Emissions (Clean Water Vapor)</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         SECTION 1: THE PROBLEM & THE SIMPLE SOLUTION
+         Real, simple English copy explaining the core innovation.
+         ================================================================= -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-kicker">THE PROBLEM WE SOLVE</span>
+          <h2 class="section-title">Why Current Clean Trucks Fall Short</h2>
+          <p class="section-subtitle">
+            Commercial logistics companies want to stop burning diesel. But today's clean truck options force a
+            difficult compromise between deadweight batteries and dangerous high-pressure gas.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <!-- Issue 1: Battery Trucks -->
+          <div class="card">
+            <span class="badge badge-slate" style="margin-bottom: 14px;">PROBLEM 01</span>
+            <h3 style="font-size: 20px; margin-bottom: 10px;">Battery Trucks Are Too Heavy</h3>
+            <p style="font-size: 14px; color: var(--text-body); line-height: 1.6;">
+              Electric semi-trucks need enormous batteries weighing 8,000 to 10,000 kg. Every kilogram of battery weight
+              takes away payload capacity that a truck could have carried for profit. They also take hours to recharge
+              at special megawatt stations.
+            </p>
+          </div>
+
+          <!-- Issue 2: 700-Bar Hydrogen -->
+          <div class="card">
+            <span class="badge badge-slate" style="margin-bottom: 14px;">PROBLEM 02</span>
+            <h3 style="font-size: 20px; margin-bottom: 10px;">Standard Hydrogen is Risky &amp; Costly</h3>
+            <p style="font-size: 14px; color: var(--text-body); line-height: 1.6;">
+              Traditional hydrogen fuel-cell trucks compress hydrogen to 700 times normal air pressure (10,000 PSI).
+              These tanks are expensive, carry severe explosion hazards in traffic collisions, and depend on rare
+              hydrogen refueling stations.
+            </p>
+          </div>
+
+          <!-- Solution: SolHydra -->
+          <div class="card" style="border-color: var(--primary-border); background-color: var(--primary-light);">
+            <span class="badge" style="margin-bottom: 14px;">SOLHYDRA SOLUTION</span>
+            <h3 style="font-size: 20px; margin-bottom: 10px; color: var(--primary);">Generate Fuel On The Road</h3>
+            <p style="font-size: 14px; color: var(--text-body); line-height: 1.6;">
+              Instead of carrying explosive high-pressure gas, SolHydra carries ordinary water. Onboard solar power and
+              battery electricity split water into hydrogen in real-time, feeding the fuel cell immediately as the truck
+              drives.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         SECTION 2: HOW THE TRI-HYBRID SYSTEM WORKS (4 SIMPLE STEPS)
+         ================================================================= -->
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-kicker eco">SIMPLE &amp; RELIABLE PROCESS</span>
+          <h2 class="section-title">How SolHydra Works in 4 Steps</h2>
+          <p class="section-subtitle">
+            A closed-loop power system designed to keep commercial freight moving smoothly and cleanly.
+          </p>
+        </div>
+
+        <div class="grid-4">
+          <!-- Step 1 -->
+          <div class="step-card">
+            <div class="step-number">1</div>
+            <h3 class="step-title">Solar Capture</h3>
+            <p class="step-desc">
+              Durable solar panels on the roof of the truck and trailer continuously absorb sunlight while driving and
+              during loading stops.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step-card">
+            <div class="step-number">2</div>
+            <h3 class="step-title">Battery Buffer</h3>
+            <p class="step-desc">
+              A right-sized, lightweight onboard battery stores solar energy and captures power whenever the driver
+              applies the regenerative brakes.
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step-card eco-step">
+            <div class="step-number">3</div>
+            <h3 class="step-title">Water Electrolyzer</h3>
+            <p class="step-desc">
+              Battery power runs an onboard water electrolyzer. It splits regular water into clean hydrogen gas on
+              demand at safe, atmospheric pressure.
+            </p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="step-card">
+            <div class="step-number">4</div>
+            <h3 class="step-title">Direct Fuel Cell</h3>
+            <p class="step-desc">
+              The hydrogen flows straight into the fuel cell to generate steady electric power for the motor. Zero heavy
+              storage tanks needed.
+            </p>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px;">
+          <a href="technology.html" class="btn btn-primary">See Technical Specifications &amp; Blueprint →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         SECTION 3: INTERACTIVE FLEET CALCULATOR
+         Simple, clear business impact calculator for logistics operators.
+         ================================================================= -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-kicker">COMMERCIAL ADVANTAGE</span>
+          <h2 class="section-title">Estimate Your Fleet Savings</h2>
+          <p class="section-subtitle">
+            See how much extra freight you can carry and how much emissions your fleet can cut by switching to
+            SolHydra's lightweight tri-hybrid system.
+          </p>
+        </div>
+
+        <div class="calc-card">
+          <!-- Controls -->
+          <div>
+            <h3 style="font-size: 20px; margin-bottom: 20px;">Adjust Your Fleet Numbers</h3>
+
+            <div class="calc-control-group">
+              <div class="calc-header-row">
+                <label for="calc-trucks" class="calc-label">Number of Commercial Trucks</label>
+                <span class="calc-val-badge" id="calc-trucks-val">25 Trucks</span>
+              </div>
+              <input type="range" id="calc-trucks" class="calc-slider" min="1" max="100" value="25" step="1">
+            </div>
+
+            <div class="calc-control-group">
+              <div class="calc-header-row">
+                <label for="calc-hours" class="calc-label">Daily Operating / Sunlight Hours</label>
+                <span class="calc-val-badge" id="calc-hours-val">8 hrs / day</span>
+              </div>
+              <input type="range" id="calc-hours" class="calc-slider" min="4" max="12" value="8" step="0.5">
+            </div>
+
+            <p style="font-size: 13px; color: var(--text-muted); line-height: 1.5; margin-top: 16px;">
+              * Benchmarked against standard heavy Class-8 battery trucks with 8-ton battery packs versus SolHydra's
+              balanced 40 kWh battery and fuel-cell system.
+            </p>
+          </div>
+
+          <!-- Calculated Results -->
+          <div class="calc-results-box">
+            <div class="calc-stat-row">
+              <div>
+                <div class="calc-stat-label">Extra Cargo Carrying Capacity</div>
+                <div style="font-size: 12px; color: var(--text-muted);">Reclaimed vs heavy battery trucks</div>
+              </div>
+              <div class="calc-stat-number eco" id="out-payload">+105,000 kg</div>
+            </div>
+
+            <div class="calc-stat-row">
+              <div>
+                <div class="calc-stat-label">Clean Hydrogen Made Onboard</div>
+                <div style="font-size: 12px; color: var(--text-muted);">Produced daily from water</div>
+              </div>
+              <div class="calc-stat-number primary" id="out-h2">52.5 kg / day</div>
+            </div>
+
+            <div class="calc-stat-row">
+              <div>
+                <div class="calc-stat-label">CO₂ Emissions Eliminated</div>
+                <div style="font-size: 12px; color: var(--text-muted);">Replaces diesel truck emissions</div>
+              </div>
+              <div class="calc-stat-number" id="out-co2">1,700 MT / year</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         SECTION 4: HARDWARE SUBSYSTEMS & PLACEHOLDERS
+         Clear HTML comments for inserting 3D CAD renders and photos.
+         ================================================================= -->
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-header">
+          <div
+            style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 16px;">
+            <div>
+              <span class="section-kicker">HARDWARE OVERVIEW</span>
+              <h2 class="section-title">Engineered with Standard Parts</h2>
+              <p class="section-subtitle" style="margin-bottom: 0;">
+                All components use proven automotive and industrial parts designed for durability and low maintenance.
+              </p>
+            </div>
+            <a href="technology.html" class="btn btn-secondary">All Specifications →</a>
+          </div>
+        </div>
+
+        <div class="grid-3">
+          <!-- Subsystem 1: Rooftop Solar Matrix -->
+          <div class="subsystem-card">
+            <div class="subsystem-image-box">
+              <!-- =======================================================
+                   IMAGE PLACEHOLDER: Solar Panel Array
+                   To change this image, update the src attribute below:
+                   ======================================================= -->
+              <img src="images/Screenshot 2026-08-31 202951.png" alt="Aerodynamic Solar Array"
+                onerror="this.src='images/main_truck.png'">
+              <span class="subsystem-tag">Part 01</span>
+            </div>
+            <div class="subsystem-body">
+              <h3 class="subsystem-title">Aerodynamic Solar Panels</h3>
+              <p class="subsystem-desc">
+                Flexible, high-efficiency solar cells mounted flush against the cab and trailer roof to capture sunlight
+                without creating wind drag.
+              </p>
+              <div class="subsystem-specs">
+                <span class="spec-pill">2.4 kW Peak Power</span>
+                <span class="spec-pill">Weatherproof (IP68)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Subsystem 2: Buffer Battery -->
+          <div class="subsystem-card">
+            <div class="subsystem-image-box">
+              <!-- =======================================================
+                   IMAGE PLACEHOLDER: Buffer Battery Pack
+                   To change this image, update the src attribute below:
+                   ======================================================= -->
+              <img src="images/b.png" alt="Onboard Buffer Battery" onerror="this.src='images/main_truck.png'">
+              <span class="subsystem-tag">Part 02</span>
+            </div>
+            <div class="subsystem-body">
+              <h3 class="subsystem-title">Onboard Buffer Battery</h3>
+              <p class="subsystem-desc">
+                A compact Lithium Iron Phosphate (LFP) battery that stores solar power and captures energy whenever the
+                truck brakes.
+              </p>
+              <div class="subsystem-specs">
+                <span class="spec-pill">40 kWh Capacity</span>
+                <span class="spec-pill">Liquid-Cooled</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Subsystem 3: Water Electrolyzer -->
+          <div class="subsystem-card">
+            <div class="subsystem-image-box">
+              <!-- =======================================================
+                   IMAGE PLACEHOLDER: Water Electrolyzer Module
+                   To change this image, update the src attribute below:
+                   ======================================================= -->
+              <img src="images/pem_electrolyser.jpg" alt="Onboard Water Electrolyzer"
+                onerror="this.src='images/main_truck.png'">
+              <span class="subsystem-tag">Part 03</span>
+            </div>
+            <div class="subsystem-body">
+              <h3 class="subsystem-title">Onboard Water Electrolyzer</h3>
+              <p class="subsystem-desc">
+                Splits water into hydrogen and oxygen on demand at safe atmospheric pressure. Feeds hydrogen directly
+                into the fuel cell.
+              </p>
+              <div class="subsystem-specs">
+                <span class="spec-pill">Atmospheric Safe</span>
+                <span class="spec-pill">Zero Gas Storage Tanks</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         EXPLORE CORE TECHNOLOGY PROMPT
+         ================================================================= -->
+    <section class="section" style="padding-top: 10px;">
+      <div class="container" style="text-align: center;">
+        <div class="card" style="padding: 32px 24px; max-width: 680px; margin: 0 auto; background-color: var(--bg-light); border-color: var(--border-color);">
+          <p style="font-size: 18px; font-weight: 600; color: var(--text-main); margin-bottom: 14px;">
+            Explore our core technology modules below.
+          </p>
+          <a href="technology.html" class="btn btn-primary btn-sm">Explore Core Technology Modules →</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =================================================================
+       GLOBAL SITE FOOTER
+       ================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a href="index.html" class="brand" aria-label="SolHydra Home">
+            <div class="brand-badge">SH</div>
+            <div class="brand-info">
+              <span class="brand-text">SolHydra</span>
+              <span class="brand-tagline">Clean Mobility • Ishan Yadav</span>
+            </div>
+          </a>
+          <p class="footer-brand-bio">
+            A practical, clean commercial vehicle combining solar energy, an onboard battery, and real-time water
+            electrolysis. Zero heavy hydrogen tanks.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="technology.html" class="footer-link">Technology</a></li>
+            <li><a href="about.html" class="footer-link">About &amp; Vision</a></li>
+            <li><a href="contact.html" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Documents</h4>
+          <p style="font-size: 13px; color: var(--text-muted); line-height: 1.6;">
+            PDF's and Pitch Deck will be uploaded soon.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Contact Ishan Yadav</h4>
+          <div class="footer-contact-item">
+            <span>✉</span>
+            <a href="mailto:ishanyadav2909@gmail.com" class="footer-link">ishanyadav2909@gmail.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <span>✉</span>
+            <a href="mailto:ishanyadavactive@gmail.com" class="footer-link">ishanyadavactive@gmail.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <!-- PHONE NUMBER PLACEHOLDER -->
+            <span>📞</span>
+            <span>+91-9457606742</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 SolHydra. All rights reserved. Created by <strong>Ishan Yadav</strong>.</div>
+        <div style="display: flex; gap: 16px;">
+          <span>Zero 700-Bar Tanks</span>
+          <span>•</span>
+          <span>Tri-Hybrid Clean Vehicle</span>
+          <span>•</span>
+          <span>Commercial Transport</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =================================================================
+       INVESTOR PITCH DECK / INQUIRY MODAL
+       Functional form sending inquiry to Ishan Yadav
+       ================================================================= -->
+  <div class="modal-backdrop" id="pitch-deck-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button class="modal-close-btn" aria-label="Close dialog">&times;</button>
+      <span class="badge" style="margin-bottom: 12px;">PROJECT OVERVIEW</span>
+      <h3 style="font-size: 22px; margin-bottom: 8px;">Request SolHydra Pitch Deck</h3>
+      <p style="font-size: 14px; color: var(--text-muted); margin-bottom: 20px; line-height: 1.5;">
+        Enter your details to receive the complete SolHydra project overview, technical specifications, and fleet
+        economics report.
+      </p>
+
+      <!-- 
+        FUNCTIONAL MODAL FORM
+        Configured to deliver data to ishanyadav2909@gmail.com and ishanyadavactive@gmail.com
+      -->
+     <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="4d840e22-e1cb-4035-8cad-59de40c54b7c">
+
+        <div class="form-group">
+          <label class="form-label" for="modal-name">Your Full Name</label>
+          <input type="text" id="modal-name" name="name" class="form-input" placeholder="e.g. John Doe" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="modal-email">Your Work Email</label>
+          <input type="email" id="modal-email" name="email" class="form-input" placeholder="name@company.com" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="modal-org">Organization / Fleet Name</label>
+          <input type="text" id="modal-org" name="organization" class="form-input"
+            placeholder="e.g. Acme Transport Logistics">
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 6px;">
+          Submit &amp; Open Pitch Deck →
+        </button>
+
+        <div class="form-status"></div>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact SolHydra and Founder Ishan Yadav — Commercial Fleet Inquiries, Partnerships, and Technical FAQ.">
+  <title>Contact &amp; Inquiries | SolHydra Clean Mobility</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/sol_hydra_logo.png">
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========================= GLOBAL SITE HEADER ========================= -->
+  <header class="site-header" id="header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="brand" aria-label="SolHydra Home">
+        <img src="images/sol_hydra_logo.png" alt="SolHydra Logo" class="nav-logo">
+        <div class="brand-info">
+          <span class="brand-text">SolHydra</span>
+          <span class="brand-tagline">Clean Mobility • Ishan Yadav</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="technology.html" class="nav-link">Technology</a>
+        <a href="about.html" class="nav-link">About &amp; Vision</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn btn-secondary btn-sm" data-open-deck-modal>Pitch Deck</button>
+        <a href="contact.html" class="btn btn-primary btn-sm">Get in Touch</a>
+        <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-nav-drawer" aria-label="Mobile Navigation">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="technology.html" class="nav-link">Technology</a>
+    <a href="about.html" class="nav-link">About &amp; Vision</a>
+    <a href="contact.html" class="nav-link active">Contact</a>
+    <div style="margin-top: 14px; display: flex; flex-direction: column; gap: 10px;">
+      <button class="btn btn-secondary" style="width: 100%;" data-open-deck-modal>Project Pitch Deck</button>
+      <a href="contact.html" class="btn btn-primary" style="width: 100%;">Contact Ishan Yadav</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- ========================= CONTACT HERO ========================= -->
+    <section class="section section-light" style="padding-top: 80px;">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-kicker">COMMERCIAL INQUIRIES &amp; PARTNERSHIPS</span>
+          <h1 class="section-title">Get in Touch with Ishan Yadav</h1>
+          <p class="section-subtitle">
+            Whether you are a commercial fleet operator, logistics carrier, clean-tech investor, or engineering partner, we welcome your inquiries and collaboration.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         SECTION 1: APPLICATION FORM & DIRECT CONTACT
+         ================================================================= -->
+    <section class="section">
+      <div class="container">
+        <div class="grid-2" style="align-items: start; gap: 40px;">
+          
+          <!-- Functional Contact Form -->
+          <div class="card" style="padding: 36px;">
+            <span class="badge" style="margin-bottom: 12px;">DIRECT INQUIRY</span>
+            <h2 style="font-size: 24px; margin-bottom: 18px;">Send a Message</h2>
+
+            <!-- 
+              FUNCTIONAL CONTACT FORM
+              Configured to send to: ishanyadav2909@gmail.com and ishanyadavactive@gmail.com
+            -->
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="4d840e22-e1cb-4035-8cad-59de40c54b7c">
+              <input type="hidden" name="subject" value="Commercial Fleet Inquiry - SolHydra">
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="contact-name">Your Full Name</label>
+                  <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. John Doe" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="contact-org">Organization / Fleet</label>
+                  <input type="text" id="contact-org" name="organization" class="form-input" placeholder="e.g. Apex Freight Logistics">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="contact-email">Email Address</label>
+                  <input type="email" id="contact-email" name="email" class="form-input" placeholder="name@company.com" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="contact-phone">Mobile / Phone</label>
+                  <input type="tel" id="contact-phone" name="phone" class="form-input" placeholder="+91-XXXXXXXXXX">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contact-message">Your Message or Requirements</label>
+                <textarea id="contact-message" name="message" class="form-textarea" rows="4" placeholder="Describe your inquiry, duty cycles, or collaboration questions..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+                Send Message to Ishan Yadav →
+              </button>
+
+              <div class="form-status"></div>
+            </form>
+          </div>
+
+          <!-- Direct Contact Card & Styled Document Notice Banner -->
+          <div style="display: flex; flex-direction: column; gap: 24px;">
+            <div class="card" style="padding: 32px;">
+              <span class="badge badge-green" style="margin-bottom: 12px;">DIRECT COMMUNICATION</span>
+              <h3 style="font-size: 22px; margin-bottom: 12px;">Ishan Yadav</h3>
+              <p style="font-size: 14px; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
+                Lead developer &amp; founder of the SolHydra project. Available for technical reviews, vehicle integration discussions, and fleet trials.
+              </p>
+              
+              <div style="display: flex; flex-direction: column; gap: 14px; font-size: 14px;">
+                <div style="display: flex; gap: 12px; align-items: center;">
+                  <span style="font-size: 16px;">✉</span>
+                  <a href="mailto:ishanyadav2909@gmail.com" class="footer-link">ishanyadav2909@gmail.com</a>
+                </div>
+                <div style="display: flex; gap: 12px; align-items: center;">
+                  <span style="font-size: 16px;">✉</span>
+                  <a href="mailto:ishanyadavactive@gmail.com" class="footer-link">ishanyadavactive@gmail.com</a>
+                </div>
+                <div style="display: flex; gap: 12px; align-items: center;">
+                  <span style="font-size: 16px;">📞</span>
+                  <!-- PHONE NUMBER PLACEHOLDER -->
+                  <span style="font-weight: 600; color: var(--text-main);">+91-9457606742</span>
+                </div>
+                <div style="display: flex; gap: 12px; align-items: center;">
+                  <span style="font-size: 16px;">⏱</span>
+                  <span style="color: var(--text-muted);">Response window: Within 24 hours</span>
+                </div>
+              </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         SECTION 2: FREQUENTLY ASKED QUESTIONS (ACCORDION)
+         ================================================================= -->
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-header center">
+          <span class="section-kicker">QUESTIONS &amp; ANSWERS</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">
+            Direct answers regarding safety, water requirements, cold weather driving, and fleet advantages.
+          </p>
+        </div>
+
+        <div class="faq-list" style="max-width: 840px; margin: 0 auto;">
+          <!-- FAQ 1 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Why is on-demand electrolysis safer than conventional 700-bar hydrogen?</span>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              Standard hydrogen fuel cell trucks carry large tanks pressurized to 700 bar (10,000 PSI), which pose severe explosion risks during highway accidents. SolHydra completely eliminates this dangerous tank. Hydrogen is synthesized on demand at safe atmospheric pressure (below 3 bar) and consumed immediately by the fuel cell.
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How does SolHydra prevent water from freezing in sub-zero winter weather?</span>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              When fuel cells operate, they generate mild heat and warm water as a natural byproduct. SolHydra channels this gentle waste heat through an internal coil inside the water tank while driving, keeping the water above freezing without wasting any auxiliary battery power.
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What grade of water is needed, and where can fleets source it?</span>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              The electrolyzer requires standard clean de-ionized (DI) water. Fleets can produce this at their home depots using low-cost reverse-osmosis filtration units for pennies per gallon, completely bypassing the need for multi-million-dollar hydrogen filling stations.
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How much cargo payload does a commercial fleet gain over a battery-electric truck?</span>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              A Class-8 battery-electric truck carries an 8,000 to 10,000 kg battery pack, which severely restricts cargo capacity. SolHydra replaces that deadweight with a lightweight 40 kWh buffer pack, electrolyzer, fuel cell, and water tank, recovering roughly 4,200 kg of additional cargo carrying capability.
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What is the status of the intellectual property and patent protection?</span>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <strong>Ishan Yadav</strong> has filed core patent applications covering the closed-loop direct-feed electrolysis-to-fuel-cell pressure balancing valve, the dynamic solar-coupled predictive energy management system (EMS), and the anti-freeze thermal scavenging architecture.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =================================================================
+       GLOBAL SITE FOOTER
+       ================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a href="index.html" class="brand" aria-label="SolHydra Home">
+            <div class="brand-badge">SH</div>
+            <div class="brand-info">
+              <span class="brand-text">SolHydra</span>
+              <span class="brand-tagline">Clean Mobility • Ishan Yadav</span>
+            </div>
+          </a>
+          <p class="footer-brand-bio">
+            A practical, clean commercial vehicle combining solar energy, an onboard battery, and real-time water electrolysis. Zero heavy hydrogen tanks.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="technology.html" class="footer-link">Technology</a></li>
+            <li><a href="about.html" class="footer-link">About &amp; Vision</a></li>
+            <li><a href="contact.html" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Documents</h4>
+          <p style="font-size: 13px; color: var(--text-muted); line-height: 1.6;">
+            PDF's and Pitch Deck will be uploaded soon.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Contact Ishan Yadav</h4>
+          <div class="footer-contact-item">
+            <span>✉</span>
+            <a href="mailto:ishanyadav2909@gmail.com" class="footer-link">ishanyadav2909@gmail.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <span>✉</span>
+            <a href="mailto:ishanyadavactive@gmail.com" class="footer-link">ishanyadavactive@gmail.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <!-- PHONE NUMBER PLACEHOLDER -->
+            <span>📞</span>
+            <span>+91-9457606742</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 SolHydra. All rights reserved. Created by <strong>Ishan Yadav</strong>.</div>
+        <div style="display: flex; gap: 16px;">
+          <span>Zero 700-Bar Tanks</span>
+          <span>•</span>
+          <span>Tri-Hybrid Clean Vehicle</span>
+          <span>•</span>
+          <span>Commercial Transport</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- INVESTOR PITCH DECK MODAL -->
+  <div class="modal-backdrop" id="pitch-deck-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button class="modal-close-btn" aria-label="Close dialog">&times;</button>
+      <span class="badge" style="margin-bottom: 12px;">PROJECT OVERVIEW</span>
+      <h3 style="font-size: 22px; margin-bottom: 8px;">Request SolHydra Pitch Deck</h3>
+      <p style="font-size: 14px; color: var(--text-muted); margin-bottom: 20px; line-height: 1.5;">
+        PDF's and Pitch Deck will be uploaded soon. Leave your email below to be notified as soon as they are available.
+      </p>
+
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="4d840e22-e1cb-4035-8cad-59de40c54b7c">
+        
+
+        <div class="form-group">
+          <label class="form-label" for="modal-name-contact">Your Full Name</label>
+          <input type="text" id="modal-name-contact" name="name" class="form-input" placeholder="e.g. John Doe" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="modal-email-contact">Your Work Email</label>
+          <input type="email" id="modal-email-contact" name="email" class="form-input" placeholder="name@company.com" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="modal-org-contact">Organization / Fleet Name</label>
+          <input type="text" id="modal-org-contact" name="organization" class="form-input" placeholder="e.g. Acme Logistics">
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 6px;">
+          Submit Request →
+        </button>
+
+        <div class="form-status"></div>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
